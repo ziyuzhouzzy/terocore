@@ -1,0 +1,77 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Feb 23 11:35:29 2021
+| Host         : LAPTOP-5JC6CQBI running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_module_control_sets_placed.rpt
+| Design       : top_module
+| Device       : xc7z020
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    11 |
+| Unused register locations in slices containing registers |    69 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            9 |
+|      3 |            1 |
+|    16+ |            1 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               3 |            1 |
+| No           | No                    | Yes                    |               5 |            2 |
+| No           | Yes                   | No                     |              18 |            4 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               9 |            9 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------+---------------------+--------------------------+------------------+----------------+
+|            Clock Signal           |    Enable Signal    |     Set/Reset Signal     | Slice Load Count | Bel Load Count |
++-----------------------------------+---------------------+--------------------------+------------------+----------------+
+| ~counter_inst/counter[2].tff/D[0] | control_inst/enable | control_inst/rst_counter |                1 |              1 |
+| ~counter_inst/counter[3].tff/D[0] | control_inst/enable | control_inst/rst_counter |                1 |              1 |
+| ~counter_inst/counter[1].tff/D[0] | control_inst/enable | control_inst/rst_counter |                1 |              1 |
+| ~counter_inst/counter[0].tff/D[0] | control_inst/enable | control_inst/rst_counter |                1 |              1 |
+| ~counter_inst/counter[4].tff/D[0] | control_inst/enable | control_inst/rst_counter |                1 |              1 |
+| ~counter_inst/counter[5].tff/D[0] | control_inst/enable | control_inst/rst_counter |                1 |              1 |
+| ~counter_inst/counter[7].tff/D[0] | control_inst/enable | control_inst/rst_counter |                1 |              1 |
+| ~counter_inst/counter[6].tff/D[0] | control_inst/enable | control_inst/rst_counter |                1 |              1 |
+|  tero_inst/N1/in0[0]              | control_inst/enable | control_inst/rst_counter |                1 |              1 |
+|  clk_IBUF_BUFG                    |                     |                          |                1 |              3 |
+|  clk_IBUF_BUFG                    |                     | rst_IBUF                 |                6 |             23 |
++-----------------------------------+---------------------+--------------------------+------------------+----------------+
+
+

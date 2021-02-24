@@ -1,0 +1,12 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/vivadoproject/Tero/Tero.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+D:/vivadoproject/Tero/Tero.srcs/sim_1/new/cmp_tb.v,1613772018,verilog,,,,cmp_tb,,,,,,,,
+D:/vivadoproject/Tero/Tero.srcs/sim_1/new/top_tb.v,1613938626,verilog,,,,top_tb,,,,,,,,
+D:/vivadoproject/Tero/Tero.srcs/sources_1/new/TFF.v,1613493939,verilog,,D:/vivadoproject/Tero/Tero.srcs/sources_1/new/asyn_counter.v,,TFF,,,,,,,,
+D:/vivadoproject/Tero/Tero.srcs/sources_1/new/asyn_counter.v,1613571428,verilog,,D:/vivadoproject/Tero/Tero.srcs/sources_1/new/controller.v,,asyncCounter,,,,,,,,
+D:/vivadoproject/Tero/Tero.srcs/sources_1/new/comp.v,1613772581,verilog,,D:/vivadoproject/Tero/Tero.srcs/sim_1/new/cmp_tb.v,,comp,,,,,,,,
+D:/vivadoproject/Tero/Tero.srcs/sources_1/new/controller.v,1614002307,verilog,,D:/vivadoproject/Tero/Tero.srcs/sources_1/new/top_chip.v,,controller,,,,,,,,
+D:/vivadoproject/Tero/Tero.srcs/sources_1/new/top_chip.v,1613919407,verilog,,D:/vivadoproject/Tero/Tero.srcs/sim_1/new/top_tb.v,,top_chip,,,,,,,,
